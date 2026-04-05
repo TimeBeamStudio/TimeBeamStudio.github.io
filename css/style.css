@@ -106,9 +106,22 @@ p{
 }
 .cta-btn-group{
 	margin-top: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 20px;
 }
 .cta-btn-group .btn{
-	margin: 10px;
+	margin: 0;
+}
+.text-center .cta-btn-group{
+	justify-content: center;
+}
+.navbar-default .navbar-toggle{
+	border-color: rgba(255,255,255,0.45);
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
 }
 .btn-orange.focus, .btn-orange:focus,.btn-orange.active, .btn-orange:active {
     color: #fff;
@@ -650,6 +663,23 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 /*******************************************OVERLAY*************************************************/
 @media screen and (max-width: 768px) {
+    .cta-btn-group{
+    	justify-content: center;
+    }
+    .cta-btn-group .btn{
+    	width: 100%;
+    	max-width: 320px;
+    }
+    .navbar-collapse{
+    	margin-top: 15px;
+    	padding: 10px 15px;
+    	border-top: 0;
+    	border-radius: 18px;
+    	background-color: rgba(14,21,58,0.92);
+    }
+    .navbar-nav{
+    	margin: 0;
+    }
     .home-hero{
     	padding-bottom: 60px;
     }
@@ -732,6 +762,17 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	}
 }
 @media screen and (min-width: 769px){
+	.navbar-toggle{
+		display: none !important;
+	}
+	.navbar-default .navbar-collapse{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-default .navbar-nav.navbar-right{
+		display: flex;
+		align-items: center;
+	}
 	.image-right-slide-wraper{
 		display: table;
 		width: 100%;
