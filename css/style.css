@@ -1,14 +1,23 @@
 /****************************************TYPOGRAPHY ***************************************************/
+@font-face{
+	font-family: 'Mops';
+	src: url('../fonts/Mops.otf') format('opentype'),
+		 url('../fonts/Mops.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	color: #999999;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Mops', 'Montserrat', sans-serif;
 	color: #433b88;
 	font-weight: 600;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 h1{
 	font-size: 3.998em;
@@ -226,6 +235,12 @@ header{
 .home-overview{
 	background-color: #f7f8fc;
 }
+.section-soft-background{
+	background:
+		radial-gradient(circle at top right, rgba(232, 108, 108, 0.12), transparent 28%),
+		radial-gradient(circle at 82% 22%, rgba(129, 112, 137, 0.16), transparent 18%),
+		linear-gradient(180deg, #f8f2f6 0%, #f7f8fc 55%, #ffffff 100%);
+}
 .home-card-column{
 	margin-bottom: 30px;
 }
@@ -422,6 +437,8 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
+    font-family: 'Mops', 'Montserrat', sans-serif;
+    letter-spacing: 1px;
 }
 .logo-colored img,.logo-white img{
 	display: inline-block;
