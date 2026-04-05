@@ -146,6 +146,75 @@ header{
 .slider-para{
 	font-size: 1.414em;
 	font-family: 'Montserrat', sans-serif;
+	line-height: 1.7;
+}
+.home-hero{
+	padding-bottom: 90px;
+}
+.home-hero-row{
+	display: flex;
+	align-items: center;
+}
+.home-hero-copy{
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.home-kicker{
+	margin-bottom: 20px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+}
+.home-hero-copy .cta-heading{
+	margin-top: 0;
+	margin-bottom: 25px;
+	max-width: 11ch;
+}
+.home-hero-copy .slider-para{
+	max-width: 540px;
+}
+.home-hero-meta{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-top: 30px;
+}
+.home-meta-card{
+	min-width: 220px;
+	padding: 18px 22px;
+	border-radius: 18px;
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 0px 12px 30px 0px rgba(14, 21, 58, 0.16);
+}
+.home-meta-card strong,
+.home-meta-card span{
+	display: block;
+	color: #fff;
+}
+.home-meta-card strong{
+	margin-bottom: 8px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.home-meta-card span{
+	line-height: 1.6;
+}
+.home-hero-visual{
+	padding-top: 80px;
+}
+.home-hero-visual img{
+	margin: 0 auto;
+	max-width: 94%;
+	filter: drop-shadow(0px 26px 38px rgba(14, 21, 58, 0.35));
+}
+.home-overview{
+	background-color: #f7f8fc;
+}
+.home-card-column{
+	margin-bottom: 30px;
 }
 /*******************************************SLIDER***************************************************/
 .slider-content-wraper{
@@ -426,7 +495,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	margin-bottom: 30px;
 }
 .margin-top-30{
-	margin-top: 3  0px;
+	margin-top: 30px;
 }
 .overflow-x-hidden{
 	overflow-x: hidden;
@@ -581,6 +650,27 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 /*******************************************OVERLAY*************************************************/
 @media screen and (max-width: 768px) {
+    .home-hero{
+    	padding-bottom: 60px;
+    }
+    .home-hero-row{
+    	display: block;
+    }
+    .home-hero-copy{
+    	padding-top: 120px;
+    	padding-bottom: 0;
+    	text-align: center;
+    }
+    .home-hero-copy .cta-heading,
+    .home-hero-copy .slider-para{
+    	max-width: none;
+    }
+    .home-hero-meta{
+    	justify-content: center;
+    }
+    .home-meta-card{
+    	width: 100%;
+    }
     .sm-padding-top-bottom-50-75 {
         padding-top: 50px;
         padding-bottom: 75px;
@@ -602,6 +692,9 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	}
 	.home-slider h2{
 		font-size: 1.999em;
+	}
+	.home-slider h1{
+		font-size: 2.4em;
 	}
 	.home-slider .slider-para{
 		font-size: 1em;

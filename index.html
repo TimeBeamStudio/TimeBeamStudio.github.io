@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Lazy Fox - Home</title>
 
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/ionicons.min.css">
@@ -44,35 +44,33 @@
         </div>
       </nav>
 
-      <section class="padding-top-90 home-slider">
-        <div id="home-slider" class="owl-carousel">
-          <div>
-            <div class="sliding-card-with-bottom-image text-center padding-top-90">
-              <h2 class="cta-heading text-white">Interactive science and games</h2>
-              <p class="text-white slider-para">Mismo estilo visual, pero con estructura multipágina real y navegación limpia.</p>
-              <div class="cta-btn-group">
-                <a class="btn btn-orange border-none btn-rounded-corner" href="science-visualization.html">Science visualization <span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
-                <a class="btn btn-white border-none btn-rounded-corner" href="games.html">Games<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
-              </div>
-              <div class="image-container text-center sm-display-none">
-                <img class="img-responsive" src="images/mockuo2.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="container">
-              <div class="row">
-                <div class="image-right-slide-bg clearfix" style="background-image:url(images/mockuo.png)">
-                  <div class="col-md-12">
-                    <h2 class="cta-heading text-white">Science communication with visual impact</h2>
-                    <p class="text-white slider-para">Visualización científica, experiencias interactivas y proyectos jugables con identidad propia.</p>
-                    <div class="cta-btn-group">
-                      <a class="btn btn-orange border-none btn-rounded-corner" href="science-visualization.html">Explore science <span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
-                      <a class="btn btn-white border-none btn-rounded-corner" href="contact.html">Contact<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
-                    </div>
+      <section class="padding-top-90 home-slider home-hero">
+        <div class="container">
+          <div class="row home-hero-row">
+            <div class="col-md-6">
+              <div class="home-hero-copy">
+                <p class="home-kicker text-white">Lazy Fox Studio</p>
+                <h1 class="cta-heading text-white">Interactive science, games and visual storytelling</h1>
+                <p class="text-white slider-para">Una portada más limpia y estable para presentar visualización científica, proyectos jugables y una navegación clara entre páginas.</p>
+                <div class="cta-btn-group">
+                  <a class="btn btn-orange border-none btn-rounded-corner" href="science-visualization.html">Science visualization <span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+                  <a class="btn btn-white border-none btn-rounded-corner" href="games.html">Games<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+                </div>
+                <div class="home-hero-meta">
+                  <div class="home-meta-card">
+                    <strong>Science visuals</strong>
+                    <span>Datos, simulaciones y comunicación visual con estructura clara.</span>
+                  </div>
+                  <div class="home-meta-card">
+                    <strong>Playable work</strong>
+                    <span>Experiencias interactivas, prototipos y diseño orientado a usuario.</span>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="home-hero-visual sm-display-none">
+                <img class="img-responsive" src="images/mockuo2.png" alt="Lazy Fox home preview">
               </div>
             </div>
           </div>
@@ -80,7 +78,7 @@
       </section>
     </header>
 
-    <section class="padding-top-bottom-120 bg-image-fit-50" style="background:url(images/1_back.png)">
+    <section class="padding-top-bottom-120 bg-image-fit-50 home-overview" style="background:url(images/1_back.png)">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -117,7 +115,7 @@
           <hr class="heading-devider gradient-orange">
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 home-card-column">
             <div class="card">
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">science</small></p>
@@ -127,7 +125,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 home-card-column">
             <div class="card">
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">games</small></p>
@@ -137,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 home-card-column">
             <div class="card">
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">contact</small></p>
