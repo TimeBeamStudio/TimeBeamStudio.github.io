@@ -1,10 +1,15 @@
 /****************************************TYPOGRAPHY ***************************************************/
 @font-face{
-	font-family: 'Mops';
-	src: url('../fonts/Mops.otf') format('opentype'),
-		 url('../fonts/Mops.ttf') format('truetype');
+	font-family: 'Typey';
+	src: url('../fonts/Typey.otf') format('opentype');
 	font-weight: normal;
 	font-style: normal;
+}
+@font-face{
+	font-family: 'Typey';
+	src: url('../fonts/Typey_Italic.otf') format('opentype');
+	font-weight: normal;
+	font-style: italic;
 }
 
 body{
@@ -13,7 +18,7 @@ body{
 	color: #999999;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Mops', 'Montserrat', sans-serif;
+	font-family: 'Typey', 'Montserrat', sans-serif;
 	color: #433b88;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -437,7 +442,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Mops', 'Montserrat', sans-serif;
+    font-family: 'Typey', 'Montserrat', sans-serif;
     letter-spacing: 1px;
 }
 .logo-colored img,.logo-white img{
