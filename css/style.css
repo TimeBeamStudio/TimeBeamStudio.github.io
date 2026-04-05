@@ -96,9 +96,10 @@ a{
 	margin-left: 8px;
 }
 
-.icon-on-button i{
-	font-size: 18px;
-	vertical-align: middle;
+.icon-on-button img{
+	width: 18px;
+	height: 18px;
+	display: block;
 }
 
 /**************************************** NAVBAR ****************************************/
@@ -816,9 +817,10 @@ ul.social-list li a:focus{
 	text-decoration: none;
 }
 
-.btn-link i{
-	font-size: 18px;
-	vertical-align: middle;
+.btn-link img{
+	width: 18px;
+	height: 18px;
+	display: block;
 }
 
 .bg-transparent{
@@ -914,11 +916,11 @@ label{
 	box-shadow: 0px 10px 24px rgba(54, 1, 133, 0.22);
 }
 
-.scroll-top-icon-container i{
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	font-size: 28px;
+.scroll-top-icon-container img{
+	width: 18px;
+	height: 18px;
+	display: block;
+	margin: 13px auto 0;
 }
 
 /**************************************** MOBILE ****************************************/
