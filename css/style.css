@@ -13,13 +13,13 @@
 }
 
 body{
-	font-family: 'Typey', 'Open Sans', sans-serif;
+	font-family: 'Typey', sans-serif;
 	font-size: 14px;
 	color: #999999;
 	line-height: 1.7;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 	color: #433b88;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -44,7 +44,7 @@ p{
 }
 
 .btn{
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 	font-size: 0.707em;
 	text-transform: uppercase;
 	font-weight: 600;
@@ -80,7 +80,7 @@ p{
 	max-height: 50px;
 }
 .navbar-default .navbar-nav>li>a {
-    font-family: 'Typey', 'Montserrat', sans-serif;
+    font-family: 'Typey', sans-serif;
     color: #fff;
     text-transform: uppercase;
 }
@@ -173,7 +173,7 @@ header{
 }
 .slider-para{
 	font-size: 1.414em;
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 	line-height: 1.7;
 }
 .home-hero{
@@ -222,7 +222,7 @@ header{
 }
 .home-meta-card strong{
 	margin-bottom: 8px;
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -336,7 +336,7 @@ header{
 .testimonial-speech{
 	font-size: 16px;
 	text-align: center;
-	font-family: 'Typey', 'Open Sans', sans-serif;
+	font-family: 'Typey', sans-serif;
 	color: #5a5a5a;
 }
 .testimonial-container .client-details{
@@ -352,12 +352,12 @@ header{
 	font-size: 10px;
 	text-transform: uppercase;
 	color: #999999;
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 }
 .client-name{
 	margin-bottom: 0px;
 	font-size: 16px;
-	font-family: 'Typey', 'Montserrat', sans-serif;
+	font-family: 'Typey', sans-serif;
 	text-transform: capitalize;
 	font-weight: 400;
 }
@@ -424,7 +424,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	border: 0px;
 	background-color: transparent!important;
 	padding-left: 0;
-	font-family: 'Typey', 'Open Sans', sans-serif;
+	font-family: 'Typey', sans-serif;
 	color: #999999;
 }
 .footer-devider{
@@ -443,7 +443,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Typey', 'Montserrat', sans-serif;
+    font-family: 'Typey', sans-serif;
     letter-spacing: 1px;
 }
 .logo-colored img,.logo-white img{
