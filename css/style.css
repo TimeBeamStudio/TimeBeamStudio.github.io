@@ -401,6 +401,13 @@ header{
 	font-size: 36px;
 }
 
+.feature-wiget .icon-wraper img,
+.development-panel .icon-wraper img{
+	display: inline-block;
+	width: 38px;
+	height: 38px;
+}
+
 .feature-wiget h4{
 	text-transform: uppercase;
 }
