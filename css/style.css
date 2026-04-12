@@ -740,6 +740,10 @@ header{
 	font-size: 36px;
 }
 
+.feature-wiget .icon-wraper{
+	margin-bottom: 12px;
+}
+
 .feature-wiget .icon-wraper img,
 .development-panel .icon-wraper img{
 	display: inline-block;
@@ -963,21 +967,27 @@ ul.social-list li a:focus{
 .logo-colored,
 .logo-white,
 .logo-black{
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: nowrap;
 	font-size: 28px;
 	font-weight: 400;
 	text-transform: uppercase;
 	font-family: 'Coolvetica', sans-serif;
 	letter-spacing: 1px;
+	line-height: 1;
+	white-space: nowrap;
+	gap: 10px;
 }
 
 .logo-colored img,
 .logo-white img,
 .logo-black img{
-	display: inline-block;
+	display: block;
 	text-transform: uppercase;
 	max-height: 50px;
-	margin-right: 10px;
+	flex-shrink: 0;
+	margin-right: 0;
 }
 
 .logo-white{
@@ -1481,8 +1491,16 @@ label{
 		margin-top: 2px;
 	}
 
+	.logo-colored,
+	.logo-white,
+	.logo-black{
+		font-size: 22px;
+		letter-spacing: 0.8px;
+	}
+
 	.logo-colored img,
-	.logo-white img{
+	.logo-white img,
+	.logo-black img{
 		max-height: 40px;
 	}
 
