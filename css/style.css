@@ -41,6 +41,10 @@ body{
 	background-color: #ffffff;
 }
 
+[hidden]{
+	display: none !important;
+}
+
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Coolvetica', sans-serif;
 	color: var(--tb-dark);
@@ -983,8 +987,10 @@ ul.social-list li a:focus{
 
 .footer-left-content{
 	margin-bottom: 50px;
-	max-width: 340px;
-	padding-right: 30px;
+	max-width: 520px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-right: 0;
 	text-align: center;
 }
 
@@ -1342,6 +1348,13 @@ label{
 }
 
 @media screen and (min-width: 992px){
+	footer > .container > .row:before,
+	footer > .container > .row:after,
+	footer > .container > .row > .col-md-9 > .row:before,
+	footer > .container > .row > .col-md-9 > .row:after{
+		display: none;
+	}
+
 	footer > .container > .row{
 		display: flex;
 		flex-wrap: wrap;
@@ -1354,11 +1367,23 @@ label{
 	}
 
 	footer > .container > .row > .col-md-3{
-		width: 32%;
+		flex: 0 0 100%;
+		width: 100%;
 	}
 
 	footer > .container > .row > .col-md-9{
-		width: 68%;
+		flex: 0 0 100%;
+		width: 100%;
+	}
+
+	footer > .container > .row > .col-md-9 > .row{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	footer > .container > .row > .col-md-9 > .row > [class*="col-"]{
+		float: none;
 	}
 
 	.footer-divider{
