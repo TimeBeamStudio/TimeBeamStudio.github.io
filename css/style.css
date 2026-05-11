@@ -986,7 +986,7 @@ ul.social-list li a:focus{
 }
 
 .footer-left-content{
-	margin-bottom: 50px;
+	margin-bottom: 56px;
 	max-width: 520px;
 	margin-left: auto;
 	margin-right: auto;
@@ -997,17 +997,19 @@ ul.social-list li a:focus{
 .footer-left-content .logo-black{
 	align-items: center;
 	flex-direction: column;
+	font-size: 30px;
+	gap: 14px;
 	line-height: 1.05;
 	max-width: 100%;
 	white-space: normal;
 }
 
 .footer-left-content .logo-black img{
-	max-height: 44px;
+	max-height: 54px;
 }
 
 .footer-left-content .content{
-	margin-top: 18px;
+	display: none;
 }
 
 .footer-left-content .content p{
@@ -1495,6 +1497,10 @@ label{
 	.footer-left-content{
 		max-width: none;
 		padding-right: 0;
+	}
+
+	.footer-left-content .logo-black{
+		font-size: 24px;
 	}
 
 	.footer-left-content .content p{
