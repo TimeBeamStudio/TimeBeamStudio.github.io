@@ -472,23 +472,30 @@ header{
 }
 
 .portfolio-topic-header{
-	margin-bottom: 28px;
-	max-width: 760px;
+	border-bottom: 1px solid rgba(54, 1, 133, 0.10);
+	margin-bottom: 30px;
+	padding-bottom: 24px;
 }
 
 .portfolio-subtopic-header{
-	margin-bottom: 22px;
-	max-width: 760px;
+	margin-bottom: 28px;
+	max-width: 980px;
+}
+
+.portfolio-topic-header h3,
+.portfolio-subtopic-header h4{
+	margin-bottom: 8px;
 }
 
 .portfolio-subtopic-header h4{
-	margin-bottom: 8px;
 	text-transform: initial;
 }
 
+.portfolio-topic-header p,
 .portfolio-subtopic-header p{
 	color: var(--tb-text);
 	margin-bottom: 0;
+	max-width: 980px;
 }
 
 .portfolio-topic-grid .col-md-4,
