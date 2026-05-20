@@ -46,17 +46,7 @@
       </div>
     </header>
 
-    <section class="padding-top-bottom-90 section-soft-background">
-      <div class="container">
-        <div class="development-panel">
-          <div class="icon-wraper"><img src="images/icon-in-development.svg" alt=""></div>
-          <p class="development-note">In Development</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hidden draft archive navigation: unhide when subject areas are ready to publish. -->
-    <section class="padding-top-bottom-90" hidden aria-hidden="true">
+    <section class="padding-top-bottom-90">
       <div class="container">
         <div class="science-archive-intro">
           <h3>Subject Areas</h3>
@@ -67,8 +57,7 @@
       </div>
     </section>
 
-    <!-- Hidden draft subject area: kept for future astronomy and celestial-events content. -->
-    <section class="padding-top-bottom-90" hidden aria-hidden="true">
+    <section class="padding-top-bottom-90">
       <div class="container">
         <div class="portfolio-topic-section" id="astronomy-topic">
           <div class="portfolio-topic-header">
@@ -79,53 +68,43 @@
             <h4>Celestial Events</h4>
             <p>This area is centered on eclipses and other visible astronomical events that lend themselves to explanatory, observational, or cinematic treatments.</p>
           </div>
-          <!-- Hidden draft: keep this card and its matching detail block for a future eclipse project. -->
-          <div class="row portfolio-topic-grid" hidden aria-hidden="true">
+          <div class="row portfolio-topic-grid">
             <div class="col-md-4 col-sm-6">
-              <a class="portfolio-project-card" data-toggle="collapse" href="#eclipse-example-detail" aria-expanded="true" aria-controls="eclipse-example-detail">
-                <div class="portfolio-project-thumb portfolio-project-placeholder">
-                  <span>Project image</span>
+              <a class="portfolio-project-card" data-toggle="collapse" href="#eclipse-example-detail" aria-expanded="false" aria-controls="eclipse-example-detail">
+                <div class="portfolio-project-thumb portfolio-project-video-thumb">
+                  <img src="https://img.youtube.com/vi/TSfb1WnOXMA/hqdefault.jpg" alt="Preview image for the total solar eclipse video">
                 </div>
                 <div class="portfolio-project-body">
                   <p class="portfolio-project-tag">Featured project</p>
-                  <h4>Total solar eclipse example</h4>
-                  <p>This first card can stay selected by default and act as the featured project for this area.</p>
+                  <h4>Total solar eclipse</h4>
+                  <p>A visual piece for the total solar eclipse of August 12, 2026, with 4K and short-format releases.</p>
                 </div>
               </a>
             </div>
           </div>
-          <!-- Hidden draft detail: unhide and replace placeholder content when the project is ready. -->
-          <div class="collapse portfolio-project-detail" id="eclipse-example-detail" hidden aria-hidden="true">
+          <div class="collapse portfolio-project-detail" id="eclipse-example-detail">
             <div class="row">
               <div class="col-md-7">
                 <div class="portfolio-video-frame">
-                  <div class="portfolio-video-placeholder">
-                    <strong>Featured video</strong>
-                    <span>Replace this placeholder with the YouTube embed of the eclipse video you want to show by default in this project area.</span>
-                  </div>
+                  <iframe src="https://www.youtube.com/embed/TSfb1WnOXMA?rel=0&origin=https%3A%2F%2Ftimebeamstudio.github.io" title="Total solar eclipse - 4K version" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
-                <!-- Replace the placeholder above with a real embed when you choose the video:
-                <div class="portfolio-video-frame">
-                  <iframe src="https://www.youtube.com/embed/VIDEO_ID?rel=0" title="Project video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div>
-                -->
                 <div class="portfolio-video-meta">
                   <span class="portfolio-video-meta-label">Formats</span>
-                  <a class="portfolio-format-link" href="https://www.youtube.com/@TimeBeamStudio" target="_blank" rel="noopener noreferrer">Fulldome</a>
-                  <a class="portfolio-format-link" href="https://www.youtube.com/@TimeBeamStudio" target="_blank" rel="noopener noreferrer">Standard video</a>
-                  <a class="portfolio-format-link" href="https://www.youtube.com/@TimeBeamStudio" target="_blank" rel="noopener noreferrer">Short edit</a>
-                  <a class="portfolio-format-link" href="https://www.youtube.com/@TimeBeamStudio" target="_blank" rel="noopener noreferrer">Educational version</a>
+                  <a class="portfolio-format-link" href="https://www.youtube.com/watch?v=TSfb1WnOXMA" target="_blank" rel="noopener noreferrer">Standard 4K</a>
+                  <a class="portfolio-format-link" href="https://www.youtube.com/shorts/C37I5eZjrYk" target="_blank" rel="noopener noreferrer">Short version</a>
+                  <span class="portfolio-format-link portfolio-format-link-disabled">Fulldome in development</span>
                 </div>
               </div>
               <div class="col-md-5">
                 <div class="portfolio-project-copy">
-                  <p class="science-group-kicker">Example detail</p>
-                  <h3>Total solar eclipse project title</h3>
-                  <p>Use this larger description area for the event itself, what the video explains, whether it is observational, educational, or cinematic, and where it was published.</p>
-                  <p>You can also add date, duration, target audience, region of visibility, collaborators, or whether the final version exists as a standard video or a fulldome adaptation.</p>
+                  <p class="science-group-kicker">Astronomy visualization</p>
+                  <h3>Total solar eclipse</h3>
+                  <p>A cinematic visualization created around the total solar eclipse of August 12, 2026, an astronomical event visible from parts of Spain.</p>
+                  <p>The project is released first as a standard 4K video and as a short-format version for vertical viewing.</p>
+                  <p>The fulldome version is currently in development and will be added when it is ready.</p>
                   <div class="portfolio-detail-actions">
-                    <a class="btn btn-orange border-none btn-rounded-corner" href="https://www.youtube.com/@TimeBeamStudio" target="_blank" rel="noopener noreferrer">Watch on YouTube <span class="icon-on-button"><img src="images/arrow-right-light.svg" alt=""></span></a>
-                    <a class="btn btn-white gradient-white border-none btn-rounded-corner" href="contact.html">Project inquiry <span class="icon-on-button"><img src="images/arrow-right-dark.svg" alt=""></span></a>
+                    <a class="btn btn-orange border-none btn-rounded-corner" href="https://www.youtube.com/watch?v=TSfb1WnOXMA" target="_blank" rel="noopener noreferrer">Watch 4K version <span class="icon-on-button"><img src="images/arrow-right-light.svg" alt=""></span></a>
+                    <a class="btn btn-white gradient-white border-none btn-rounded-corner" href="https://www.youtube.com/shorts/C37I5eZjrYk" target="_blank" rel="noopener noreferrer">Watch short <span class="icon-on-button"><img src="images/arrow-right-dark.svg" alt=""></span></a>
                   </div>
                 </div>
               </div>

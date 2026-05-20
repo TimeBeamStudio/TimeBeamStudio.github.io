@@ -534,11 +534,26 @@ header{
 	overflow: hidden;
 }
 
+.portfolio-project-video-thumb{
+	aspect-ratio: 16 / 9;
+	background-color: #14051f;
+	position: relative;
+}
+
 .portfolio-project-thumb img{
 	display: block;
 	height: 100%;
 	object-fit: cover;
 	width: 100%;
+}
+
+.portfolio-project-video-thumb img{
+	transition: transform .35s ease, filter .35s ease;
+}
+
+.portfolio-project-card:hover .portfolio-project-video-thumb img{
+	filter: brightness(0.82);
+	transform: scale(1.04);
 }
 
 .portfolio-project-placeholder{
@@ -639,6 +654,14 @@ header{
 	border-color: rgba(222, 26, 88, 0.28);
 	color: var(--tb-hot);
 	text-decoration: none;
+}
+
+.portfolio-format-link-disabled,
+.portfolio-format-link-disabled:hover{
+	background: rgba(143, 136, 157, 0.08);
+	border-color: rgba(143, 136, 157, 0.18);
+	color: var(--tb-muted);
+	cursor: default;
 }
 
 .portfolio-video-placeholder{
